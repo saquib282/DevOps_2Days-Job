@@ -4,7 +4,7 @@ metadata:
   creationTimestamp: null
   labels:
     app: myd
-  name: myd
+  name: mydeploy
 spec:
   replicas: 1
   selector:
