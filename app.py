@@ -6,4 +6,8 @@ app = Flask(__name__)
 def lw():
     return "welcome to home"
 
+@app.route("/k8s")
+def my():
+    return "welcome to K8s"
+
 app.run(host='0.0.0.0',port=5000)
