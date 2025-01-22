@@ -5,7 +5,7 @@ metadata:
   labels:
     app: myd
     app.kubernetes.io/instance: myapp
-  name: mydeploy-Service
+  name: mydeploy
 spec:
   ports:
   - port: 9090
